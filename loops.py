@@ -66,15 +66,20 @@
 # print(even_sum)
 
 # write a program to recreate the fizzbuzz game
-target = 100
-for n in range(0, target +1):
-    if n % 3 == 0 and n % 5 == 0:
-        print("FizzBuzz")
-    elif n % 3 == 0:
-        print("Fizz")
-    elif n % 5 == 0:
-        print("Buzz")
-    else: 
-        print(n)
+# target = 100
+# for n in range(0, target +1):
+#     if n % 3 == 0 and n % 5 == 0:
+#         print("FizzBuzz")
+#     elif n % 3 == 0:
+#         print("Fizz")
+#     elif n % 5 == 0:
+#         print("Buzz")
+#     else: 
+#         print(n)
 
+#While loops - while something is true, do something repeatedly
 
+number = 6
+while number > 0:
+    print(number)
+    number -= 1
